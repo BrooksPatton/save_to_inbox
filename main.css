@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.mv-sticky ~ div.mv-bar {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+li.name {
+  font-size: 2em;
+}
+
+ul {
+  background-color: antiquewhite;
+}
+
+span.mv-bar {
+  padding: 0;
+}
+
+button {
+  padding: 1em;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+button.mv-add {
+  background-color: lightgreen;
+}
+
+button.mv-save {
+  background-color: lightskyblue;
+}
