@@ -6,8 +6,12 @@ h1 {
   text-align: center;
 }
 
-div.mv-sticky ~ div.mv-bar {
+button.mv-save {
   display: none;
+}
+
+span.mv-sticky + button.mv-save {
+  display: inline-block;
 }
 
 li {

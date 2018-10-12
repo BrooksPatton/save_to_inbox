@@ -11,17 +11,21 @@
 </head>
 <body>
   <h1>Save to Inbox!</h1>
-  <div mv-app="save_to_inbox" mv-mode="edit">
+  <div mv-app="save_to_inbox" mv-bar="save" mv-mode="edit">
     <div mv-multiple property="inbox">
+      <!-- <div class="mv-item-bar mv-ui"></div> -->
       <section>
-        <div class="mv-item-bar mv-ui"></div>
         <ul>
-          <li class="name" property="name"></li>
+          <li class="name" property="name">
+          </li>
           <li class="description" property="description"></li>
         </ul>
+        <div class="mv-bar">
+          <span class="mv-item-bar mv-ui"></span>
+          <button class="mv-save">save to dropbox</button>
+        </div>
       </section>
     </div>
   </div>
-  <script src="main.js"></script>
 </body>
 </html>
