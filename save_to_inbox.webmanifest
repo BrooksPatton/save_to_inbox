@@ -1,0 +1,16 @@
+{
+    "name": "Save to Inbox Progressive Web App",
+    "short_name": "Save to Inbox",
+    "description": "Save items to a centralized inbox for later processing",
+    "icons": [
+        {
+            "src": "ink-pen-icon-.jpg",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}
