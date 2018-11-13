@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Save to inbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://get.mavo.io/mavo.min.js"></script>
+  <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body mv-app="save-to-inbox" mv-storage="https://www.dropbox.com/s/kcho7gtb73zzf2q/save_to_inbox_demo.json?dl=0" mv-mode="edit" mv-autosave="3">
+  <nav>
+    <h1>Save to Inbox</h1>
+  </nav>
+  <main mv-multiple="inbox">
+    <section mv-if="$index == count(inbox) - 1">
+      <div>Task:</div> 
+      <div><input type="text" property="task"></div>
+      <div>Description:</div>
+      <div><textarea cols="30" rows="10" property="description"></textarea></div>
+    </section>
+  </main>
+</body>
+</html>
