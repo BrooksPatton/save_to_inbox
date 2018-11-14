@@ -9,16 +9,16 @@
   <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
-<body mv-app="save-to-inbox" mv-storage="https://www.dropbox.com/s/kcho7gtb73zzf2q/save_to_inbox_demo.json?dl=0" mv-mode="edit" mv-autosave="3">
+<body mv-app="save-to-inbox" mv-storage="https://www.dropbox.com/s/kcho7gtb73zzf2q/save_to_inbox_demo.json?dl=0" mv-mode="edit">
   <nav>
     <h1>Save to Inbox</h1>
   </nav>
   <main mv-multiple="inbox">
-    <section mv-if="$index == count(inbox) - 1">
+    <section>
       <div>Task:</div> 
       <div><input type="text" property="task"></div>
       <div>Description:</div>
-      <div><textarea cols="30" rows="10" property="description"></textarea></div>
+      <div><textarea cols="30" rows="3" property="description"></textarea></div>
     </section>
   </main>
 </body>
